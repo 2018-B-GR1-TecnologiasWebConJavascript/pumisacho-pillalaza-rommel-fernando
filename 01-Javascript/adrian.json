@@ -1,0 +1,10 @@
+//si se puede poner un objeto json dentro de un objeto json
+{
+  "nombre": "Adrian",
+  "edad": 29.23432,
+  "casado": null,
+  "tieneHijos": false,
+  "mascotas": {
+    "nombre": "Adrian"
+  }
+}
