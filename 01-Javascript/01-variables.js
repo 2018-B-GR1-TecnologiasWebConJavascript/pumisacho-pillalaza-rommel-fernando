@@ -39,53 +39,53 @@ console.log(adrian.nombre);
 console.log(adrian);
 delete adrian.hijo;
 console.log(adrian);
-adrian.hija={
-    nombre:"???"
+adrian.hija = {
+    nombre: "???"
 };
 console.log(adrian);
 
-if(2){//truthy
+if (2) {//truthy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(0){//falsy
+if (0) {//falsy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(-2){//truthy
+if (-2) {//truthy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(""){//falsy
+if ("") {//falsy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if("asd"){//truthy
+if ("asd") {//truthy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(null){//falsy
+if (null) {//falsy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if({nombre:'adrian'}){//truthy
+if ({nombre: 'adrian'}) {//truthy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(new Date()){//truthy
+if (new Date()) {//truthy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
-if(undefined){//falsy
+if (undefined) {//falsy
     console.log("si")
-}else{
+} else {
     console.log("no")
 }
