@@ -71,8 +71,8 @@ var ejemplo = function nombreDos() {};// funcion anonima
 var adrian ={
     trabajo: function () {
         //implementacion
-    }
-    adrian.trabajo();
+        //}
+        adrian.trabajo();
 
     var arreglo = [
         funtion
