@@ -49,8 +49,8 @@ console.log(respuestaFilter);
 const  respuestaFindIndex = arregloNumeros
     .findIndex (v=> v === 7);
 
-console.log(arregloNumeros.indexOf(7));
-console.log(respuestaFindIndex);
+console.log('respuesta de finindex'+arregloNumeros.indexOf(7));
+console.log('respuesta de finindex'+respuestaFindIndex);
 
 //find
 

@@ -1,4 +1,4 @@
-arreglo = [
+var arreglo = [
     1, "Rommel", false, null, new Date(),
     {
         nombre: "Fernando"
