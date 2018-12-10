@@ -32,7 +32,17 @@ let fechanacimineto: Date = new Date();
 
 function saludar(
     nombre: string,
+function saludar(
+    nombre: string,
     apellido?: string,
+    ...otrosNombres: string[]): number { //despues de los parentesis hago el typescrip del return de la funcion
+
+    return 1;
+}
+
+let respuestaSaludar = <number> saludar('vicente', 'lopez');
+
+apellido?: string,
     ...otrosNombres: string[]): number { //despues de los parentesis hago el typescrip del return de la funcion
 
     return 1;
