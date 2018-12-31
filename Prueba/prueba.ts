@@ -87,7 +87,7 @@ function buscar() {
                         const bdd: BaseDatos = JSON.parse(contenidoArchivo);
 
                         const respuestaFind = bdd
-                            .types.filter( bdd.types.name => bdd.types.name ==='grass')     //esperaba que con esto pueda clasificar los pokenomes 
+                            .types.filter( (valor,indice) => bdd.types.name === 'types')     //esperaba que con esto pueda clasificar los pokenomes
                             .forEach(n => console.log(n));
 
 
