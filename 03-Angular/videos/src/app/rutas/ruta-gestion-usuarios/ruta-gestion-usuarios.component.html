@@ -1,3 +1,44 @@
-<p>
-  ruta-gestion-usuarios works!
-</p>
+<h3> Gestion de Usuarios </h3>
+<p>Gestione sus Usuarios!</p>
+
+User Id: <input type="text" name="userID" id="userID" /><br/><br/>
+User Name: <input type="text" name="userName" id="userName" /><br/><br/>
+
+<button (click)="crearUsuario();">
+
+</button><br/><br/>
+
+<script>
+  var ID = document.getElementById('userID').value;
+  var nombre = document.getElementById('userName').value;
+</script>
+<table>
+  <!-- tr -> table row-->
+  <tr>
+    <th> Identificador</th>
+    <th> Nombre</th>
+    <th> Accion</th>
+
+  </tr>
+
+  <tr *ngFor="let usuario of usuarios" >
+    <td> {{usuario.id}} </td>
+    <td> {{usuario.nombre}} </td>
+    <td>
+      <button (click)="eliminar(usuario)">
+        Eliminar
+      </button>
+      <button (click)="crear(usuario)">
+        Crear
+      </button>
+
+    </td>
+  </tr>
+
+
+</table>
+
+
+<!-- DIRECTIVAS-->
+<!-- *ngFor : Itera un arreglo -->
+<!-- DIRECTIVAS : empiezan con un asterisco -->
